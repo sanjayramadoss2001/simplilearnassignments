@@ -1,13 +1,12 @@
 package com.assignment.collections;
 
-public class EventQueue {
-	// event -> ( id, name, startdate, createdate, eventType)
+public class EventSet {
 		int id;
 		String Name;
 		String StartDate;
 		String CreateDate;
 		String eventType;
-		public EventQueue(int id, String name, String startDate, String createDate, String eventType) {
+		public EventSet(int id, String name, String startDate, String createDate, String eventType) {
 			this.id = id;
 			Name = name;
 			StartDate = startDate;
